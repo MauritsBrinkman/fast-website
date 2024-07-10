@@ -17,7 +17,7 @@ const SearchForm = () => {
             let newUrl = '';
 
             if (search) {
-                const newUrl = formUrlQuery({
+                newUrl = formUrlQuery({
                     params: searchParams.toString(),
                     key: 'query',
                     value: search,
